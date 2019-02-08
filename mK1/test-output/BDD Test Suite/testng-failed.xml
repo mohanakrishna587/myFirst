@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test name="Login and Update Profile Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.MK.mK1.TestRunner">
+        <methods>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MK.mK1.TestRunner -->
+    </classes>
+  </test> <!-- Login and Update Profile Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
