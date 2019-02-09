@@ -1,4 +1,4 @@
-Feature: myFeature
+Feature: myFeature1
 
 This feature is a sample feature and just written for fun
 
